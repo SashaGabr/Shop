@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#E0FFFF !important;
+}
+
+header{
+  position: fixed;
+  z-index: 2;
+  background-color: #563d7c;
+  height: 90px;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+.right-buttons{
+  margin-top: -70px;
+  margin-right: 2%;
+}
+
+.btn-menu{
+  height: 35px;
+  width: 35px;
+}
+
+.button-sign{
+  margin-top: 45%; 
+}
+
+.card-container{
+  text-align: center;
+}
+
+.card{
+  width: 210px;
+  margin: auto;
+  margin-top: 110px;
+}
+
+.card img{
+  height: 220px;
+}
+
+.buttonss{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-buttons{
+  text-align: right;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(170, 229, 245);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+
+.footer .btn{
+  width: 200px;
+}
